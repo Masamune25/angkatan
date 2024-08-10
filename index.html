@@ -575,7 +575,7 @@
     function enableScroll() {
       window.onscroll = function () {}
       rootElement.style.scrollBehavior = 'smooth';
-      // localStorage.setItem('opened', 'true');
+      localStorage.setItem('opened', 'true');
       playAudio();
     }
 
@@ -600,9 +600,9 @@
       isPlaying = !isPlaying;
     }
 
-    // if (!localStorage.getItem('opened')) {
-    //   disableScroll();
-    // }
+    if (!localStorage.getItem('opened')) {
+      disableScroll();
+    }
     disableScroll();
   </script>
   <script>
