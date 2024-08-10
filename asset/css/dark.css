@@ -1,0 +1,16 @@
+/* Tema Gelap */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .navbar.dark-mode {
+    background-color: #343a40;
+  }
+  
+  .hero.dark-mode {
+    background-color: #212529;
+  }
+  
+  /* Tambahkan lebih banyak aturan sesuai kebutuhan */
+  

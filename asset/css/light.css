@@ -1,0 +1,16 @@
+/* Tema Terang */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .navbar.light-mode {
+    background-color: #f8f9fa;
+  }
+  
+  .hero.light-mode {
+    background-color: #e9ecef;
+  }
+  
+  /* Tambahkan lebih banyak aturan sesuai kebutuhan */
+  
